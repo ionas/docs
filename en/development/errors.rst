@@ -22,7 +22,7 @@ Error handling accepts a few options that allow you to tailor error handling for
 your application:
 
 * ``errorLevel`` - int - The level of errors you are interested in capturing.
-  Use the built-in php error constants, and bitmasks to select the level of
+  Use the built-in php error constants, and bitmasks to select the level of3
   error you are interested in.
 * ``trace`` - boolean - Include stack traces for errors in log files. Stack
   traces will be included in the log after each error. This is helpful for
@@ -160,7 +160,7 @@ exceptions for HTTP methods
 
     Used for doing a 405 Method Not Allowed error.
 
-.. versionadded:: 3.1
+.. versionadded:: 3.1.7
 
     NotAcceptableException has been added.
 
@@ -168,7 +168,7 @@ exceptions for HTTP methods
 
     Used for doing a 406 Not Acceptable error.
 
-.. versionadded:: 3.1
+.. versionadded:: 3.1.7
 
     ConflictException has been added.
 
@@ -176,7 +176,7 @@ exceptions for HTTP methods
 
     Used for doing a 409 Conflict error.
 
-.. versionadded:: 3.1
+.. versionadded:: 3.1.7
 
     GoneException has been added.
 
@@ -194,7 +194,7 @@ For more details on HTTP 4xx error status codes see :rfc:`2616#section-10.4`.
 
     Used for doing a 501 Not Implemented Errors.
 
-.. versionadded:: 3.1
+.. versionadded:: 3.1.7
 
     Service Unavailable has been added.
 
