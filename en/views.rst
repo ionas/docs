@@ -90,7 +90,7 @@ Using Short Tag support::
 Alternative Control Structures
 ------------------------------
 
-Control structures, like ``if``, ``for``, ``foreach``, and ``while`` can be
+Control structures, like ``if``, ``for``, ``foreach``, ``switch`` and ``while`` can be
 written in a simplified format as well. The following is an example using
 ``foreach``::
 
